@@ -16,6 +16,7 @@
         <field name="res_model">res.partner</field>
         <field name="view_type">form</field>
         <field name="view_mode">tree</field>
-
+        <field name="domain">[('es_usuario','=','True')]</field>
+        <field name="context">{'default_es_usuario': 'True'}</field>
     </record>
 </odoo>

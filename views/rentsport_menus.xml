@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <menuitem id="main_rentsport_menu" name="Rent Sport" sequence="50"/>
+  <menuitem id="rentsport_menu" name="Administracion"  sequence="40"  parent="main_rentsport_menu"/>
+  <menuitem id="rentsport_users_menu" action="rentsport_users_action" name="Usuarios" sequence="30" parent="rentsport_menu"/>
+</odoo>

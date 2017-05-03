@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="rentsport_new_user_wizard_form_view" model="ir.ui.view">
+        <field name="name">rentsport.new.user.wizard</field>
+        <field name="model">rentsport.new.user.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Nuevo Usuario">
+                <group>
+                    <field name="nombre"/>
+                    <field name="telefono"/>
+                    <field name="email" on_change="ValidarEmail(email)"/>
+                </group>
+                <footer>
+                    <button name="crear_usuario" type="object" string="Crear usuario"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>

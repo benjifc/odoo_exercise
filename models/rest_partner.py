@@ -11,9 +11,10 @@ class ResPartner(models.Model):                     # ← DEFINICION DE LA CLASE
 
                                                     # ↓ DEFINICION DE LOS CAMPOS DEL MODELO/ COLUMNAS DB
     es_usuario = fields.Boolean(string='¿es usuario?')
-    cupones_ids = fields.One2many(comodel_name='rentsport.user.coupon', inverse_name='respartner_id', string='Cupones')
 
-    
+
+
+
 
 
 

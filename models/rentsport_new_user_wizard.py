@@ -2,7 +2,7 @@
 # Copyright 2017 Benjamín Fernández Carrasco
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl)
 
-import re, uuid
+import  uuid, datetime, re
 from odoo import models, fields, api, exceptions    # ← IMPORTS
 
 
@@ -38,35 +38,39 @@ class RentSportNewUserWizard(models.Model):              # ← DEFINICION DE LA 
 
 
 
-                                                    # ↓ DEFINICION DE LOS METODOS PRIVADOS
+                                                    # ↓ DEFINICION DE LOS METODOS
 
+    # Restrinciones
 
-
-    def  ValidarEmail(self,email):
+    ###########################################################################################################################################
+    @api.one
+    @api.constrains('email')
+    def  _check_email(self):
         pattern = re.compile("^.+\\@(\\[?)[a-zA-Z0-9\\-\\.]+\\.([a-zA-Z]{2,3}|[0-9]{1,3})(\\]?)$")
 
-        if pattern.match(email):
+        if pattern.match(str(self.email)):
             return True
         else:
-            raise exceptions.Warning('Correo Electronico No Valido', 'Porfavor introduzca una direccion de correo electronico valida')
+            raise  exceptions.ValidationError("Correo Electronico No Valido,Porfavor introduzca una direccion de correo electronico valida")
+    ###########################################################################################################################################
 
     def crear_usuario(self):
         for wizard in self:
             usuario_vals = {
                 'name': wizard.nombre,
+                'display_name': wizard.nombre,
                 'phone': wizard.telefono,
                 'email': wizard.email,
                 'es_usuario':True
             }
 
+            nuevo_usuario_id = self.env['res.partner'].create(usuario_vals)
 
-            nuevo_usuario_id = self.env['rentsport.res.partner'].create(session_vals)
             cupon_vals = {
-               'codigo': str(uuid.uuid4().hex)[:12],
+               'codigo': str(uuid.uuid4().hex)[:12], # generamos un UUID de 12 cifras
                'codigo_usado' : False,
-               'usuario_id': nuevo_usuario_id
+               'fecha_validez' : datetime.date.today() + datetime.timedelta(days=+20), # Creamos el cupon con vente días más de la fecha de creación
+               'usuario_id': nuevo_usuario_id.ids[0]
             }
-
-
-            nuevo_cupon_id = self.env['rentsport.user.coupon'].create(session_vals)
+            nuevo_cupon_id = self.env['rentsport.user.coupon'].create(cupon_vals)
 

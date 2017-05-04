@@ -3,4 +3,5 @@
   <menuitem id="main_rentsport_menu" name="Rent Sport" sequence="50"/>
   <menuitem id="rentsport_menu" name="Administracion"  sequence="40"  parent="main_rentsport_menu"/>
   <menuitem id="rentsport_users_menu" action="rentsport_users_action" name="Usuarios" sequence="30" parent="rentsport_menu"/>
+  <menuitem id="rentsport_new_user_menu"  action="rentsport_new_user_wizard_action" name="Alta usuario" sequence="31" parent="rentsport_users_menu"/>
 </odoo>

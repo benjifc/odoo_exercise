@@ -1,603 +1,300 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <odoo>
-	<record id="0" model="res.partner">
-		<field name="name">Geraldine</field>
-		<field name="email">amet.consectetuer@odioauctor.co.uk</field>
-		<field name="phone">767-453-9762</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="1" model="res.partner">
-		<field name="name">Lillian</field>
-		<field name="email">risus@Fusce.net</field>
-		<field name="phone">231-369-0252</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="2" model="res.partner">
-		<field name="name">Bevis</field>
-		<field name="email">vel.convallis.in@interdumfeugiatSed.co.uk</field>
-		<field name="phone">872-8249</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="3" model="res.partner">
-		<field name="name">Deacon</field>
-		<field name="email">Etiam.vestibulum.massa@urna.ca</field>
-		<field name="phone">805-7384</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="4" model="res.partner">
-		<field name="name">Irma</field>
-		<field name="email">nonummy.ut.molestie@sempercursusInteger.net</field>
-		<field name="phone">780-0101</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="5" model="res.partner">
-		<field name="name">Uriah</field>
-		<field name="email">auctor.velit@dictumeueleifend.net</field>
-		<field name="phone">610-5219</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="6" model="res.partner">
-		<field name="name">Adam</field>
-		<field name="email">luctus.ipsum@et.co.uk</field>
-		<field name="phone">273-564-7341</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="7" model="res.partner">
-		<field name="name">Mechelle</field>
-		<field name="email">Nunc@sed.co.uk</field>
-		<field name="phone">845-576-7848</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="8" model="res.partner">
-		<field name="name">Tasha</field>
-		<field name="email">nisi.dictum@liberolacus.edu</field>
-		<field name="phone">650-224-6734</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="9" model="res.partner">
-		<field name="name">Linus</field>
-		<field name="email">non@Maecenasornare.org</field>
-		<field name="phone">818-575-1764</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="10" model="res.partner">
-		<field name="name">Ali</field>
-		<field name="email">Curabitur.egestas@elitNullafacilisi.ca</field>
-		<field name="phone">499-982-4077</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="11" model="res.partner">
-		<field name="name">Montana</field>
-		<field name="email">varius.et.euismod@porttitorscelerisque.net</field>
-		<field name="phone">648-9188</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="12" model="res.partner">
-		<field name="name">Kane</field>
-		<field name="email">arcu.vel@arcuVivamus.co.uk</field>
-		<field name="phone">130-586-2961</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="13" model="res.partner">
-		<field name="name">Aileen</field>
-		<field name="email">pede@facilisisSuspendisse.co.uk</field>
-		<field name="phone">575-664-5609</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="14" model="res.partner">
-		<field name="name">Taylor</field>
-		<field name="email">imperdiet.ornare.In@blanditcongue.org</field>
-		<field name="phone">187-377-6760</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="15" model="res.partner">
-		<field name="name">Noelani</field>
-		<field name="email">tincidunt@loremloremluctus.co.uk</field>
-		<field name="phone">316-762-7247</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="16" model="res.partner">
-		<field name="name">Rebekah</field>
-		<field name="email">iaculis.quis.pede@mus.net</field>
-		<field name="phone">861-188-3708</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="17" model="res.partner">
-		<field name="name">Nola</field>
-		<field name="email">faucibus.leo@Proinnon.co.uk</field>
-		<field name="phone">207-935-3295</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="18" model="res.partner">
-		<field name="name">Dieter</field>
-		<field name="email">arcu.Aliquam.ultrices@musProinvel.edu</field>
-		<field name="phone">336-479-5249</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="19" model="res.partner">
-		<field name="name">Troy</field>
-		<field name="email">pede.Suspendisse@Curabitur.edu</field>
-		<field name="phone">150-1346</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="20" model="res.partner">
-		<field name="name">Ciaran</field>
-		<field name="email">sapien.Nunc@massaVestibulumaccumsan.ca</field>
-		<field name="phone">740-487-2094</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="21" model="res.partner">
-		<field name="name">Amaya</field>
-		<field name="email">in@vulputate.co.uk</field>
-		<field name="phone">283-2114</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="22" model="res.partner">
-		<field name="name">Byron</field>
-		<field name="email">arcu.Morbi@Nunc.net</field>
-		<field name="phone">999-2729</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="23" model="res.partner">
-		<field name="name">Yoshi</field>
-		<field name="email">cursus@ipsum.ca</field>
-		<field name="phone">897-8277</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="24" model="res.partner">
-		<field name="name">Matthew</field>
-		<field name="email">ultricies.ligula.Nullam@nec.net</field>
-		<field name="phone">148-200-3115</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="25" model="res.partner">
-		<field name="name">Xenos</field>
-		<field name="email">iaculis.quis.pede@Aliquamultricesiaculis.com</field>
-		<field name="phone">341-341-4547</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="26" model="res.partner">
-		<field name="name">Willa</field>
-		<field name="email">id.enim@et.com</field>
-		<field name="phone">873-704-4606</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="27" model="res.partner">
-		<field name="name">Brynn</field>
-		<field name="email">dignissim@ac.ca</field>
-		<field name="phone">905-419-9065</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="28" model="res.partner">
-		<field name="name">Halla</field>
-		<field name="email">semper.auctor@consectetuerrhoncusNullam.net</field>
-		<field name="phone">952-209-2410</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="29" model="res.partner">
-		<field name="name">Adam</field>
-		<field name="email">urna.Vivamus.molestie@Duisatlacus.org</field>
-		<field name="phone">713-260-7233</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="30" model="res.partner">
-		<field name="name">Addison</field>
-		<field name="email">pede.nec@mi.org</field>
-		<field name="phone">671-0746</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="31" model="res.partner">
-		<field name="name">Delilah</field>
-		<field name="email">libero.lacus@non.com</field>
-		<field name="phone">242-2920</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="32" model="res.partner">
-		<field name="name">Denise</field>
-		<field name="email">et.nunc@erateget.org</field>
-		<field name="phone">772-1302</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="33" model="res.partner">
-		<field name="name">Regina</field>
-		<field name="email">vitae.orci.Phasellus@necenim.com</field>
-		<field name="phone">141-7223</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="34" model="res.partner">
-		<field name="name">Morgan</field>
-		<field name="email">Nunc@arcuNuncmauris.net</field>
-		<field name="phone">643-2935</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="35" model="res.partner">
-		<field name="name">Barrett</field>
-		<field name="email">erat.volutpat@Maurisnulla.net</field>
-		<field name="phone">881-685-2866</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="36" model="res.partner">
-		<field name="name">Colette</field>
-		<field name="email">et.euismod@liberoInteger.ca</field>
-		<field name="phone">254-3530</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="37" model="res.partner">
-		<field name="name">Uma</field>
-		<field name="email">elementum.at.egestas@risusodioauctor.ca</field>
-		<field name="phone">465-7847</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="38" model="res.partner">
-		<field name="name">Autumn</field>
-		<field name="email">Nunc@Incondimentum.co.uk</field>
-		<field name="phone">148-195-0582</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="39" model="res.partner">
-		<field name="name">Alice</field>
-		<field name="email">venenatis@facilisisfacilisis.ca</field>
-		<field name="phone">608-0530</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="40" model="res.partner">
-		<field name="name">Magee</field>
-		<field name="email">leo.Cras.vehicula@facilisismagna.org</field>
-		<field name="phone">368-8899</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="41" model="res.partner">
-		<field name="name">Castor</field>
-		<field name="email">ipsum@vitaevelitegestas.co.uk</field>
-		<field name="phone">628-518-1390</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="42" model="res.partner">
-		<field name="name">Valentine</field>
-		<field name="email">massa.Vestibulum.accumsan@ametrisusDonec.org</field>
-		<field name="phone">937-915-5105</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="43" model="res.partner">
-		<field name="name">Maggie</field>
-		<field name="email">egestas.Sed.pharetra@ametultriciessem.co.uk</field>
-		<field name="phone">398-744-4669</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="44" model="res.partner">
-		<field name="name">Robert</field>
-		<field name="email">ipsum.ac@uterosnon.edu</field>
-		<field name="phone">728-735-2220</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="45" model="res.partner">
-		<field name="name">Aristotle</field>
-		<field name="email">Duis.gravida.Praesent@Inornaresagittis.edu</field>
-		<field name="phone">260-0683</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="46" model="res.partner">
-		<field name="name">Iona</field>
-		<field name="email">et.magnis.dis@amet.ca</field>
-		<field name="phone">498-1537</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="47" model="res.partner">
-		<field name="name">Cassidy</field>
-		<field name="email">blandit.Nam@In.co.uk</field>
-		<field name="phone">949-1000</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="48" model="res.partner">
-		<field name="name">Sade</field>
-		<field name="email">orci.Donec@commodo.com</field>
-		<field name="phone">497-414-2458</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="49" model="res.partner">
-		<field name="name">Cassandra</field>
-		<field name="email">ut.erat@etmagna.edu</field>
-		<field name="phone">844-312-6504</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="50" model="res.partner">
-		<field name="name">Noelle</field>
-		<field name="email">Etiam.gravida@antedictumcursus.co.uk</field>
-		<field name="phone">742-645-5608</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="51" model="res.partner">
-		<field name="name">Colleen</field>
-		<field name="email">mus.Proin@dapibus.org</field>
-		<field name="phone">886-9079</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="52" model="res.partner">
-		<field name="name">Willa</field>
-		<field name="email">mollis.vitae@elementum.co.uk</field>
-		<field name="phone">504-743-6360</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="53" model="res.partner">
-		<field name="name">Matthew</field>
-		<field name="email">non.massa@vehicula.net</field>
-		<field name="phone">165-4572</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="54" model="res.partner">
-		<field name="name">Leo</field>
-		<field name="email">dolor.Fusce@liberoestcongue.co.uk</field>
-		<field name="phone">189-6365</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="55" model="res.partner">
-		<field name="name">Sarah</field>
-		<field name="email">a.malesuada@risus.ca</field>
-		<field name="phone">786-258-9034</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="56" model="res.partner">
-		<field name="name">Ori</field>
-		<field name="email">nunc.Quisque.ornare@molestietellusAenean.org</field>
-		<field name="phone">709-647-2247</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="57" model="res.partner">
-		<field name="name">Drew</field>
-		<field name="email">vitae.semper.egestas@massa.net</field>
-		<field name="phone">288-9635</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="58" model="res.partner">
-		<field name="name">Devin</field>
-		<field name="email">ornare.lectus@ipsumSuspendisse.co.uk</field>
-		<field name="phone">902-5984</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="59" model="res.partner">
-		<field name="name">Neville</field>
-		<field name="email">natoque.penatibus@Nunclaoreet.org</field>
-		<field name="phone">122-517-7894</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="60" model="res.partner">
-		<field name="name">Fiona</field>
-		<field name="email">egestas.Duis@tristique.edu</field>
-		<field name="phone">877-4656</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="61" model="res.partner">
-		<field name="name">Mia</field>
-		<field name="email">Sed.dictum.Proin@Quisque.org</field>
-		<field name="phone">866-530-5583</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="62" model="res.partner">
-		<field name="name">Myra</field>
-		<field name="email">ipsum@ametorci.co.uk</field>
-		<field name="phone">747-1206</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="63" model="res.partner">
-		<field name="name">Quon</field>
-		<field name="email">dolor.Nulla.semper@maurisaliquameu.net</field>
-		<field name="phone">224-6952</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="64" model="res.partner">
-		<field name="name">Calvin</field>
-		<field name="email">lobortis.risus.In@idrisusquis.net</field>
-		<field name="phone">607-515-0755</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="65" model="res.partner">
-		<field name="name">Maxwell</field>
-		<field name="email">ultrices.sit.amet@quisurna.org</field>
-		<field name="phone">941-739-4192</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="66" model="res.partner">
-		<field name="name">Carla</field>
-		<field name="email">nisi@id.com</field>
-		<field name="phone">198-8181</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="67" model="res.partner">
-		<field name="name">Lunea</field>
-		<field name="email">dui.augue@faucibusorciluctus.co.uk</field>
-		<field name="phone">442-9572</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="68" model="res.partner">
-		<field name="name">Remedios</field>
-		<field name="email">nec@ametrisusDonec.org</field>
-		<field name="phone">837-1503</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="69" model="res.partner">
-		<field name="name">Clementine</field>
-		<field name="email">eget@estvitaesodales.edu</field>
-		<field name="phone">131-760-4034</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="70" model="res.partner">
-		<field name="name">Lysandra</field>
-		<field name="email">feugiat.Sed.nec@augue.ca</field>
-		<field name="phone">467-851-0716</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="71" model="res.partner">
-		<field name="name">Darryl</field>
-		<field name="email">ac.eleifend.vitae@odioauctorvitae.net</field>
-		<field name="phone">370-897-5436</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="72" model="res.partner">
-		<field name="name">Judah</field>
-		<field name="email">augue@Fusce.com</field>
-		<field name="phone">657-275-9643</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="73" model="res.partner">
-		<field name="name">Zelenia</field>
-		<field name="email">auctor@commodotincidunt.com</field>
-		<field name="phone">636-4810</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="74" model="res.partner">
-		<field name="name">Odessa</field>
-		<field name="email">hendrerit.a@ipsumprimisin.co.uk</field>
-		<field name="phone">430-2783</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="75" model="res.partner">
-		<field name="name">Daphne</field>
-		<field name="email">Pellentesque@tellusnonmagna.co.uk</field>
-		<field name="phone">113-986-2087</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="76" model="res.partner">
-		<field name="name">Leila</field>
-		<field name="email">mauris.eu.elit@magnaNamligula.net</field>
-		<field name="phone">260-7566</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="77" model="res.partner">
-		<field name="name">Kylie</field>
-		<field name="email">at@tempusnonlacinia.org</field>
-		<field name="phone">127-8399</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="78" model="res.partner">
-		<field name="name">Solomon</field>
-		<field name="email">molestie@eu.com</field>
-		<field name="phone">156-5018</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="79" model="res.partner">
-		<field name="name">Lillian</field>
-		<field name="email">auctor.velit@idnuncinterdum.co.uk</field>
-		<field name="phone">184-7984</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="80" model="res.partner">
-		<field name="name">Dane</field>
-		<field name="email">at.sem.molestie@mitemporlorem.net</field>
-		<field name="phone">480-7096</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="81" model="res.partner">
-		<field name="name">Rooney</field>
-		<field name="email">augue.scelerisque@Etiamligula.net</field>
-		<field name="phone">147-658-8286</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="82" model="res.partner">
-		<field name="name">Harriet</field>
-		<field name="email">Integer@pretiumnequeMorbi.org</field>
-		<field name="phone">105-9654</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="83" model="res.partner">
-		<field name="name">Alisa</field>
-		<field name="email">sit.amet.ornare@velitCras.ca</field>
-		<field name="phone">874-332-7622</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="84" model="res.partner">
-		<field name="name">Russell</field>
-		<field name="email">tellus.sem@pretiumnequeMorbi.net</field>
-		<field name="phone">347-8160</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="85" model="res.partner">
-		<field name="name">Demetria</field>
-		<field name="email">mollis.lectus.pede@scelerisque.net</field>
-		<field name="phone">915-0170</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="86" model="res.partner">
-		<field name="name">Quincy</field>
-		<field name="email">volutpat@est.edu</field>
-		<field name="phone">154-4065</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="87" model="res.partner">
-		<field name="name">Leonard</field>
-		<field name="email">sit@arcueu.com</field>
-		<field name="phone">503-281-0212</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="88" model="res.partner">
-		<field name="name">Desirae</field>
-		<field name="email">nec.luctus.felis@liberomaurisaliquam.co.uk</field>
-		<field name="phone">995-0799</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="89" model="res.partner">
-		<field name="name">Calvin</field>
-		<field name="email">tincidunt@anteipsum.com</field>
-		<field name="phone">404-9420</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="90" model="res.partner">
-		<field name="name">Justin</field>
-		<field name="email">auctor@Nuncsedorci.org</field>
-		<field name="phone">999-426-2147</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="91" model="res.partner">
-		<field name="name">Rhea</field>
-		<field name="email">Integer.eu@ultricesaauctor.co.uk</field>
-		<field name="phone">606-4466</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="92" model="res.partner">
-		<field name="name">Joan</field>
-		<field name="email">Phasellus.vitae.mauris@egestas.org</field>
-		<field name="phone">310-0184</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="93" model="res.partner">
-		<field name="name">Evelyn</field>
-		<field name="email">sit.amet@elementumlorem.edu</field>
-		<field name="phone">930-497-1507</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="94" model="res.partner">
-		<field name="name">Lysandra</field>
-		<field name="email">dignissim@a.co.uk</field>
-		<field name="phone">816-1577</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="95" model="res.partner">
-		<field name="name">Keiko</field>
-		<field name="email">amet.luctus.vulputate@ac.net</field>
-		<field name="phone">696-8473</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="96" model="res.partner">
-		<field name="name">Gannon</field>
-		<field name="email">mattis.Cras.eget@euismod.com</field>
-		<field name="phone">668-785-7103</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="97" model="res.partner">
-		<field name="name">Gregory</field>
-		<field name="email">tempus.non.lacinia@orciadipiscing.org</field>
-		<field name="phone">409-9318</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="98" model="res.partner">
-		<field name="name">Kameko</field>
-		<field name="email">non.arcu.Vivamus@lacusQuisque.net</field>
-		<field name="phone">491-538-4878</field>
-      <field name="es_usuario">True</field>    
-	</record>
-	<record id="99" model="res.partner">
-		<field name="name">Jessamine</field>
-		<field name="email">tempus.risus.Donec@sitametmetus.com</field>
-		<field name="phone">668-442-4592</field>
-      <field name="es_usuario">True</field>    
+	<record id="base.res_partner_1" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_2" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_3" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_4" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_5" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_6" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_7" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_8" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_9" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_10" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_11" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_12" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_13" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_14" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_15" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_16" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_17" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_18" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_19" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_20" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_21" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_22" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_23" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_24" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_25" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_26" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_27" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_28" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_29" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_30" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_31" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_32" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_33" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_34" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_35" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_36" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_37" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_38" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_39" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_40" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_41" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_42" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_43" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_44" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_45" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_46" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_47" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_48" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_49" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_50" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_51" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_52" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_53" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_54" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_55" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_56" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_57" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_58" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_59" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_60" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_61" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_62" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_63" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_64" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_65" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_66" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_67" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_68" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_69" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_70" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_71" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_72" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_73" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_74" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_75" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_76" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_77" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_78" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_79" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_80" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_81" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_82" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_83" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_84" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_85" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_86" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_87" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_88" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_89" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_90" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_91" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_92" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_93" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_94" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_95" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_96" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_97" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_98" model="res.partner">
+           <field name="es_usuario">True</field>    
+	</record>
+	<record id="base.res_partner_99" model="res.partner">
+           <field name="es_usuario">True</field>    
 	</record>
 </odoo>

@@ -1,4 +1,8 @@
-import re, uuid, datetime                           # ← IMPORTS Python 
+# -*- coding: utf-8 -*-
+# Copyright 2017 Benjamín Fernández Carrasco
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl)
+
+import re, uuid, datetime                           # ← IMPORTS Python
 
 from odoo import models, fields, api, exceptions    # ← IMPORTS Odoo
 
@@ -11,5 +15,5 @@ class RentSportUserCoupon(models.Model):              # ← DEFINICION DE LA CLA
 
     codigo = fields.Char(string="Código",  size=12, required=True ) 
     codigo_usado =   fields.Boolean(string='¿Se ha usado?', default=False )
-    fecha_validez =   fields.Date(string='Fecha de validez', required=True, default=fields.Date.context_today()+datetime.timedelta(days=+20))
-    usuario_id = fields.Many2one(comodel_name='res.partner', string='Usuario')   
+    fecha_validez =   fields.Date(string='Fecha de validez', required=True)
+    usuario_id = fields.Many2one(comodel_name='res.partner', string='Usuario', ondelete="cascade", domain=[('es_usuario','=', True)])

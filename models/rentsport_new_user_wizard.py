@@ -8,7 +8,7 @@ from odoo import models, fields, api, exceptions    # ← IMPORTS
 
 class RentSportNewUserWizard(models.Model):              # ← DEFINICION DE LA CLASE PYTHON
     _name = 'rentsport.new.user.wizard'                       # ← NOMBRE TECNICO DEL MODELO
-    _description = 'Alta de nuevos usuarios'        # ← NOMBRE LEGIBLE DEL MODELO
+    _description = 'Nuevo cupon'        # ← NOMBRE LEGIBLE DEL MODELO
 
                                                     # ↓ DEFINICION DE LOS CAMPOS DEL MODELO/ COLUMNAS DB
 
@@ -68,7 +68,7 @@ class RentSportNewUserWizard(models.Model):              # ← DEFINICION DE LA 
 
             cupon_vals = {
                'codigo': str(uuid.uuid4().hex)[:12], # generamos un UUID de 12 cifras
-               'codigo_usado' : False,
+               'codigo_usado' : 'activo',
                'fecha_validez' : datetime.date.today() + datetime.timedelta(days=+20), # Creamos el cupon con vente días más de la fecha de creación
                'usuario_id': nuevo_usuario_id.ids[0]
             }

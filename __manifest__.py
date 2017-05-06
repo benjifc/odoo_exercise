@@ -13,13 +13,21 @@
                     Permitirá al usuario final realizar la gestión completa de las instalaciones, 
                     así como las reservas a las mismas y los usuarios que pueden reservar pistas.
             """,
-    'data' : [ 
+    'data' : [
+        'demo/users.xml',
+        'demo/coupons.xml',
+        'demo/installationType.xml',
+        'demo/installations.xml',
         'views/rentsport_new_user_wizard.xml',
+        'views/rentsport_new_user_coupon_wizard.xml',
+        'views/rentsport_coupons.xml',
         'views/rentsport_users.xml',
-        'views/rentsport_menus.xml'  
+        'views/rentsport_sport_installations.xml',
+        'views/rentsport_menus.xml'
+
     ],
     'demo':[
-        'demo/rest_partner.xml'
+
     ],
     'installable': True,
     'active': False

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+	<data>
+		<record id="base.res_partner_1" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_2" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_3" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_4" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<!--<record id="base.res_partner_5" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_6" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_7" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_8" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_9" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_10" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_11" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_12" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_13" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_14" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_15" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_16" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_17" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_18" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_19" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_20" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_21" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_22" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_23" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_24" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_25" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_26" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_27" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_28" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_29" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_30" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_31" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_32" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_33" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_34" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_35" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_36" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_37" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_38" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_39" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_40" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_41" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_42" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_43" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_44" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_45" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_46" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_47" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_48" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_49" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_50" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_51" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_52" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_53" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_54" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_55" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_56" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_57" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_58" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_59" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_60" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_61" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_62" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_63" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_64" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_65" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_66" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_67" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_68" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_69" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_70" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_71" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_72" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_73" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_74" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_75" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_76" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_77" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_78" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_79" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_80" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_81" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_82" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_83" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_84" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_85" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_86" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_87" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_88" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_89" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_90" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_91" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_92" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_93" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_94" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_95" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_96" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_97" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_98" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>
+		<record id="base.res_partner_99" model="res.partner">
+			   <field name="es_usuario" eval="True"/>
+		</record>-->
+	</data>
+</odoo>

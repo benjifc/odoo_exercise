@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+	<data>
+		<record id="rentsport_installation_type_1" model="rentsport.installation.type">
+			<field name="nombre">Futbol</field>
+		</record>
+		<record id="rentsport_installation_type_2" model="rentsport.installation.type">
+			<field name="nombre">Futbol sala</field>
+		</record>
+		<record id="rentsport_installation_type_3" model="rentsport.installation.type">
+			<field name="nombre">Baloncesto</field>
+		</record>
+		<record id="rentsport_installation_type_4" model="rentsport.installation.type">
+			<field name="nombre">Balonmano</field>
+		</record>
+		<record id="rentsport_installation_type_5" model="rentsport.installation.type">
+			<field name="nombre">Padel</field>
+		</record>
+		<record id="rentsport_installation_type_6" model="rentsport.installation.type">
+			<field name="nombre">Tenis</field>
+		</record>
+		<record id="rentsport_installation_type_7" model="rentsport.installation.type">
+			<field name="nombre">Fronton</field>
+		</record>
+		<record id="rentsport_installation_type_8" model="rentsport.installation.type">
+			<field name="nombre">Voleibol</field>
+		</record>
+		<record id="rentsport_installation_type_9" model="rentsport.installation.type">
+			<field name="nombre">Natacion</field>
+		</record>
+		<record id="rentsport_installation_type_10" model="rentsport.installation.type">
+			<field name="nombre">Atletismo</field>
+		</record>
+		<record id="rentsport_installation_type_11" model="rentsport.installation.type">
+			<field name="nombre">Tiro al plato</field>
+		</record>
+		<record id="rentsport_installation_type_12" model="rentsport.installation.type">
+			<field name="nombre">Tiro olimpico</field>
+		</record>
+		<record id="rentsport_installation_type_13" model="rentsport.installation.type">
+			<field name="nombre">Tiro con arco</field>
+		</record>
+		<record id="rentsport_installation_type_14" model="rentsport.installation.type">
+			<field name="nombre">Rocodromo</field>
+		</record>
+	</data>
+</odoo>

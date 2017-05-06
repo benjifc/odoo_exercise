@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+	<data>
+		<record id="user_coupon_test_1" model="rentsport.user.coupon">
+			<field name="codigo">a1a53165032e</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-06-14</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_2" model="rentsport.user.coupon">
+			<field name="codigo">7b3d76defb57</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-06-30</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_3" model="rentsport.user.coupon">
+			<field name="codigo">5d9ad3a82328</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-08-08</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_4" model="rentsport.user.coupon">
+			<field name="codigo">092a17ad6bd8</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-05-01</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_5" model="rentsport.user.coupon">
+			<field name="codigo">ceb725b57755</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-02-20</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_6" model="rentsport.user.coupon">
+			<field name="codigo">efbb3da4193a</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-06-26</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_7" model="rentsport.user.coupon">
+			<field name="codigo">169a5e4e6494</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-03-22</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_8" model="rentsport.user.coupon">
+			<field name="codigo">ac8337eaad9a</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-26</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_9" model="rentsport.user.coupon">
+			<field name="codigo">d3307f9632c1</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-08-22</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_10" model="rentsport.user.coupon">
+			<field name="codigo">b59b2676e746</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-05-13</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_11" model="rentsport.user.coupon">
+			<field name="codigo">526a54d1baf5</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-06-07</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_12" model="rentsport.user.coupon">
+			<field name="codigo">e83a5b620878</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-07-17</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_13" model="rentsport.user.coupon">
+			<field name="codigo">f5a7b8ba005f</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-04-02</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_14" model="rentsport.user.coupon">
+			<field name="codigo">ea2d847bac46</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-06-11</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_15" model="rentsport.user.coupon">
+			<field name="codigo">f98a7fe27482</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-02-18</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_16" model="rentsport.user.coupon">
+			<field name="codigo">f7d1c0a197d9</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-06-03</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_17" model="rentsport.user.coupon">
+			<field name="codigo">73db650ed741</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-03-28</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_18" model="rentsport.user.coupon">
+			<field name="codigo">ec12077bb7f5</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-06-27</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_19" model="rentsport.user.coupon">
+			<field name="codigo">485e6241f6cc</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-09-01</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_20" model="rentsport.user.coupon">
+			<field name="codigo">e2bec8e591ac</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-02-03</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_21" model="rentsport.user.coupon">
+			<field name="codigo">eb6a5e8169e1</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-04-23</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_22" model="rentsport.user.coupon">
+			<field name="codigo">58cc52cb0715</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-02-01</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_23" model="rentsport.user.coupon">
+			<field name="codigo">5e8d143caff4</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-03-06</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_24" model="rentsport.user.coupon">
+			<field name="codigo">c31092c2d71e</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-05-27</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_25" model="rentsport.user.coupon">
+			<field name="codigo">82a9f15f94e9</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-08-16</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_26" model="rentsport.user.coupon">
+			<field name="codigo">15a62bafb461</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-01-30</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_27" model="rentsport.user.coupon">
+			<field name="codigo">9df64353b1f8</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-07-26</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_28" model="rentsport.user.coupon">
+			<field name="codigo">1ea70f602f7e</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-08-28</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_29" model="rentsport.user.coupon">
+			<field name="codigo">ccc656f586c1</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-01-03</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_30" model="rentsport.user.coupon">
+			<field name="codigo">eca4dfe877d0</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-04-12</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_31" model="rentsport.user.coupon">
+			<field name="codigo">2caefd1cc85f</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-05-30</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_32" model="rentsport.user.coupon">
+			<field name="codigo">ee4c3c5c5c94</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-06-20</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_33" model="rentsport.user.coupon">
+			<field name="codigo">afd3a7a457d6</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-03-29</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_34" model="rentsport.user.coupon">
+			<field name="codigo">2590d974d847</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-02-05</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_35" model="rentsport.user.coupon">
+			<field name="codigo">6d30851851bf</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-05-11</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_36" model="rentsport.user.coupon">
+			<field name="codigo">fc85d147c183</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-03</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_37" model="rentsport.user.coupon">
+			<field name="codigo">f2cffe4aa2ae</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-07-24</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_38" model="rentsport.user.coupon">
+			<field name="codigo">d8c0bd59ebeb</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-04-11</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_39" model="rentsport.user.coupon">
+			<field name="codigo">382cc002a2f7</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-08-26</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_40" model="rentsport.user.coupon">
+			<field name="codigo">6bc8a94c7859</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-04-11</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_41" model="rentsport.user.coupon">
+			<field name="codigo">20df46eb64e1</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-05-27</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_42" model="rentsport.user.coupon">
+			<field name="codigo">f5920616525e</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-07-04</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_43" model="rentsport.user.coupon">
+			<field name="codigo">827d7619b273</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-08-18</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_44" model="rentsport.user.coupon">
+			<field name="codigo">e56cd89a10f5</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-06-06</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_45" model="rentsport.user.coupon">
+			<field name="codigo">bbc0b20a51b9</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-07-25</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_46" model="rentsport.user.coupon">
+			<field name="codigo">f3055f9ba0d5</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-03-24</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_47" model="rentsport.user.coupon">
+			<field name="codigo">c0c10b9e14c5</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-01-26</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_48" model="rentsport.user.coupon">
+			<field name="codigo">8562d14d02e7</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-03-30</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_49" model="rentsport.user.coupon">
+			<field name="codigo">eec7bebd8154</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-02-26</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_50" model="rentsport.user.coupon">
+			<field name="codigo">5d58bbb65584</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-04-04</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_51" model="rentsport.user.coupon">
+			<field name="codigo">5ba4990dc27c</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-12</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_52" model="rentsport.user.coupon">
+			<field name="codigo">153aa23b5de2</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-02-19</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_53" model="rentsport.user.coupon">
+			<field name="codigo">5a15f89f3282</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-06-09</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_54" model="rentsport.user.coupon">
+			<field name="codigo">9bc8af7f2206</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-06-25</field>
+			<field name="usuario_id" ref="base.res_partner_1"/></record>
+		<record id="user_coupon_test_55" model="rentsport.user.coupon">
+			<field name="codigo">df74e295fb3f</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-02-16</field>
+			<field name="usuario_id" ref="base.res_partner_2"/></record>
+		<record id="user_coupon_test_56" model="rentsport.user.coupon">
+			<field name="codigo">16d2d3c4cb73</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-01-25</field>
+			<field name="usuario_id" ref="base.res_partner_2"/></record>
+		<record id="user_coupon_test_57" model="rentsport.user.coupon">
+			<field name="codigo">381967dc0eed</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-08-08</field>
+			<field name="usuario_id" ref="base.res_partner_2"/></record>
+		<record id="user_coupon_test_58" model="rentsport.user.coupon">
+			<field name="codigo">3574a8c8dfbe</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-04-13</field>
+			<field name="usuario_id" ref="base.res_partner_2"/></record>
+		<record id="user_coupon_test_59" model="rentsport.user.coupon">
+			<field name="codigo">7eb72271de6e</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-01-31</field>
+			<field name="usuario_id" ref="base.res_partner_2"/></record>
+		<record id="user_coupon_test_60" model="rentsport.user.coupon">
+			<field name="codigo">e57f9138502c</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-05-31</field>
+			<field name="usuario_id" ref="base.res_partner_2"/></record>
+		<record id="user_coupon_test_61" model="rentsport.user.coupon">
+			<field name="codigo">b59c239c3034</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-09-07</field>
+			<field name="usuario_id" ref="base.res_partner_2"/></record>
+		<record id="user_coupon_test_62" model="rentsport.user.coupon">
+			<field name="codigo">b60e520ae066</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-02-28</field>
+			<field name="usuario_id" ref="base.res_partner_2"/></record>
+		<record id="user_coupon_test_63" model="rentsport.user.coupon">
+			<field name="codigo">e2e1e0e02d93</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-06-04</field>
+			<field name="usuario_id" ref="base.res_partner_2"/></record>
+		<record id="user_coupon_test_64" model="rentsport.user.coupon">
+			<field name="codigo">015931b5e810</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-07-01</field>
+			<field name="usuario_id" ref="base.res_partner_2"/></record>
+		<record id="user_coupon_test_65" model="rentsport.user.coupon">
+			<field name="codigo">b52d1e507f4b</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-04-30</field>
+			<field name="usuario_id" ref="base.res_partner_2"/></record>
+		<record id="user_coupon_test_66" model="rentsport.user.coupon">
+			<field name="codigo">4b2ce633f6a7</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-01-17</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_67" model="rentsport.user.coupon">
+			<field name="codigo">5d7612b96cba</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-05-23</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_68" model="rentsport.user.coupon">
+			<field name="codigo">989707202417</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-03-10</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_69" model="rentsport.user.coupon">
+			<field name="codigo">f5ebf845e39e</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-04-09</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_70" model="rentsport.user.coupon">
+			<field name="codigo">7e16c3db550a</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-07-19</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_71" model="rentsport.user.coupon">
+			<field name="codigo">d59c24d9c46e</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-04-29</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_72" model="rentsport.user.coupon">
+			<field name="codigo">008800010c84</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-07-21</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_73" model="rentsport.user.coupon">
+			<field name="codigo">ed25ef658d3e</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-08-10</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_74" model="rentsport.user.coupon">
+			<field name="codigo">ebdd7010965f</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-06-16</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_75" model="rentsport.user.coupon">
+			<field name="codigo">e79b9be1fce4</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-07-27</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_76" model="rentsport.user.coupon">
+			<field name="codigo">27d73cc84076</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-09-03</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_77" model="rentsport.user.coupon">
+			<field name="codigo">89c3dc5e09c2</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-02-08</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_78" model="rentsport.user.coupon">
+			<field name="codigo">0af9fdcf5938</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-01-13</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_79" model="rentsport.user.coupon">
+			<field name="codigo">1666dcd02c52</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-07-18</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_80" model="rentsport.user.coupon">
+			<field name="codigo">2660c48cf148</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-17</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_81" model="rentsport.user.coupon">
+			<field name="codigo">7923095d4425</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-03-05</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_82" model="rentsport.user.coupon">
+			<field name="codigo">a8d6119f2773</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-05-11</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_83" model="rentsport.user.coupon">
+			<field name="codigo">3c090fa8b22e</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-07-27</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_84" model="rentsport.user.coupon">
+			<field name="codigo">776f9e5edec0</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-04-17</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_85" model="rentsport.user.coupon">
+			<field name="codigo">11a4ab25e921</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-02-11</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_86" model="rentsport.user.coupon">
+			<field name="codigo">062854f755fa</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-01-21</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_87" model="rentsport.user.coupon">
+			<field name="codigo">3ada7b355b85</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-04-22</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_88" model="rentsport.user.coupon">
+			<field name="codigo">5950f843e4b4</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-06-26</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_89" model="rentsport.user.coupon">
+			<field name="codigo">fe5866a2f9d9</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-20</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_90" model="rentsport.user.coupon">
+			<field name="codigo">5c778d937a7d</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-02-12</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_91" model="rentsport.user.coupon">
+			<field name="codigo">881c255e0fbd</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-16</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_92" model="rentsport.user.coupon">
+			<field name="codigo">e5abe02eac90</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-01-24</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_93" model="rentsport.user.coupon">
+			<field name="codigo">434a077350a6</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-26</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_94" model="rentsport.user.coupon">
+			<field name="codigo">77368c38d174</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-07-17</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_95" model="rentsport.user.coupon">
+			<field name="codigo">55b8ef7f341d</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-02-20</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_96" model="rentsport.user.coupon">
+			<field name="codigo">99ee160c5c39</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-03-05</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_97" model="rentsport.user.coupon">
+			<field name="codigo">350143d03b9b</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-03-23</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_98" model="rentsport.user.coupon">
+			<field name="codigo">a3dcf922c4ad</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-05-04</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_99" model="rentsport.user.coupon">
+			<field name="codigo">c6fd654314e0</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-06-15</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_100" model="rentsport.user.coupon">
+			<field name="codigo">bb56db674301</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-07-08</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_101" model="rentsport.user.coupon">
+			<field name="codigo">404545cd3f55</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-08-21</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_102" model="rentsport.user.coupon">
+			<field name="codigo">219a8ac40523</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-03-30</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_103" model="rentsport.user.coupon">
+			<field name="codigo">8c708a2dfcbf</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-02-07</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_104" model="rentsport.user.coupon">
+			<field name="codigo">46444a3c5b77</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-03-13</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_105" model="rentsport.user.coupon">
+			<field name="codigo">3801bba11862</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-05-04</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_106" model="rentsport.user.coupon">
+			<field name="codigo">3fba6f1976cc</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-06-04</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_107" model="rentsport.user.coupon">
+			<field name="codigo">507841296248</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-02-06</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_108" model="rentsport.user.coupon">
+			<field name="codigo">193822962730</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-05-18</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_109" model="rentsport.user.coupon">
+			<field name="codigo">37111b32e536</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-08-22</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_110" model="rentsport.user.coupon">
+			<field name="codigo">c9b63b96821f</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-05-15</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_111" model="rentsport.user.coupon">
+			<field name="codigo">6bfef39a7aa7</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-03-22</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_112" model="rentsport.user.coupon">
+			<field name="codigo">d098ff9d9a51</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-06-16</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_113" model="rentsport.user.coupon">
+			<field name="codigo">613f53d53fd5</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-18</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_114" model="rentsport.user.coupon">
+			<field name="codigo">dbaa26eca2f9</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-02-07</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_115" model="rentsport.user.coupon">
+			<field name="codigo">db17f8ca7563</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-02-17</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_116" model="rentsport.user.coupon">
+			<field name="codigo">1a8b1b14a4c8</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-17</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_117" model="rentsport.user.coupon">
+			<field name="codigo">07aa41c5778a</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-07-02</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_118" model="rentsport.user.coupon">
+			<field name="codigo">c096857d0b7d</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-06-18</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_119" model="rentsport.user.coupon">
+			<field name="codigo">99b6ea039893</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-06-23</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_120" model="rentsport.user.coupon">
+			<field name="codigo">a520d1d03107</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-08-27</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_121" model="rentsport.user.coupon">
+			<field name="codigo">10814f372cf1</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-01-05</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_122" model="rentsport.user.coupon">
+			<field name="codigo">d66a8ed7ac0e</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-06-19</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_123" model="rentsport.user.coupon">
+			<field name="codigo">24942b80fbdf</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-02-18</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_124" model="rentsport.user.coupon">
+			<field name="codigo">a4edd2896560</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-07-08</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_125" model="rentsport.user.coupon">
+			<field name="codigo">1e0cc6c760fb</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-03-22</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_126" model="rentsport.user.coupon">
+			<field name="codigo">5a44ca6640ca</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-03-17</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_127" model="rentsport.user.coupon">
+			<field name="codigo">75acb5aa9b01</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-08-06</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_128" model="rentsport.user.coupon">
+			<field name="codigo">00a9860c6dea</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-05-02</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_129" model="rentsport.user.coupon">
+			<field name="codigo">a612e00952a5</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-03-01</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_130" model="rentsport.user.coupon">
+			<field name="codigo">64d328bcd7a6</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-04-25</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_131" model="rentsport.user.coupon">
+			<field name="codigo">1f156a53ba06</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-01-06</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_132" model="rentsport.user.coupon">
+			<field name="codigo">ac609b45936f</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-03-03</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_133" model="rentsport.user.coupon">
+			<field name="codigo">d7462547a8a5</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-03-09</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_134" model="rentsport.user.coupon">
+			<field name="codigo">bd284d31e5d7</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-06-21</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_135" model="rentsport.user.coupon">
+			<field name="codigo">a737c14516dd</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-06-30</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_136" model="rentsport.user.coupon">
+			<field name="codigo">12372370b056</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-06-20</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_137" model="rentsport.user.coupon">
+			<field name="codigo">db33364ac9ec</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-31</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_138" model="rentsport.user.coupon">
+			<field name="codigo">b59df8faa0ec</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-13</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_139" model="rentsport.user.coupon">
+			<field name="codigo">cc26df99c9b2</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-03-08</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_140" model="rentsport.user.coupon">
+			<field name="codigo">012fe61881df</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-07-24</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_141" model="rentsport.user.coupon">
+			<field name="codigo">b939b86a3db6</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-23</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_142" model="rentsport.user.coupon">
+			<field name="codigo">5d284f62f0a8</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-03-13</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_143" model="rentsport.user.coupon">
+			<field name="codigo">a9127896bfc0</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-02-24</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_144" model="rentsport.user.coupon">
+			<field name="codigo">2830fe49828d</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-05-21</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_145" model="rentsport.user.coupon">
+			<field name="codigo">1fd2f40c66f1</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-01-26</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_146" model="rentsport.user.coupon">
+			<field name="codigo">415601c8f549</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-02-09</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_147" model="rentsport.user.coupon">
+			<field name="codigo">583802be99ee</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-03-15</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_148" model="rentsport.user.coupon">
+			<field name="codigo">9aed5befc79b</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-08-06</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_149" model="rentsport.user.coupon">
+			<field name="codigo">b6e73747e688</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-04-04</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_150" model="rentsport.user.coupon">
+			<field name="codigo">fa10f3b0d5fd</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-05-04</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_151" model="rentsport.user.coupon">
+			<field name="codigo">0e13884b0c3c</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-01</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_152" model="rentsport.user.coupon">
+			<field name="codigo">42296845ed97</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-08-14</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_153" model="rentsport.user.coupon">
+			<field name="codigo">d3740f903f49</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-08-19</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_154" model="rentsport.user.coupon">
+			<field name="codigo">01b48b8cff50</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-05-13</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_155" model="rentsport.user.coupon">
+			<field name="codigo">34736eaf115c</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-09-02</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_156" model="rentsport.user.coupon">
+			<field name="codigo">b899111d1eda</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-08</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_157" model="rentsport.user.coupon">
+			<field name="codigo">6543e8462c00</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-07-28</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_158" model="rentsport.user.coupon">
+			<field name="codigo">69795aecd418</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-01-18</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_159" model="rentsport.user.coupon">
+			<field name="codigo">8b13c6fa23d8</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-03-09</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_160" model="rentsport.user.coupon">
+			<field name="codigo">d0545c05ee61</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-02-10</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_161" model="rentsport.user.coupon">
+			<field name="codigo">4841271f3183</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-01-24</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_162" model="rentsport.user.coupon">
+			<field name="codigo">657ceea0d827</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-09-05</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_163" model="rentsport.user.coupon">
+			<field name="codigo">782ec5880c17</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-06-02</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_164" model="rentsport.user.coupon">
+			<field name="codigo">55b45f38e2c1</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2016-12-31</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_165" model="rentsport.user.coupon">
+			<field name="codigo">02354a2100e9</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-08-06</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_166" model="rentsport.user.coupon">
+			<field name="codigo">56fb8b3e5986</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-06-01</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_167" model="rentsport.user.coupon">
+			<field name="codigo">f7b0f50a8027</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-08-04</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_168" model="rentsport.user.coupon">
+			<field name="codigo">fda56dcaa12a</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-05-28</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_169" model="rentsport.user.coupon">
+			<field name="codigo">62e43abfe2cf</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-09-02</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_170" model="rentsport.user.coupon">
+			<field name="codigo">67b64a3e39e9</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-02-17</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_171" model="rentsport.user.coupon">
+			<field name="codigo">39df0eb1f062</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-08-25</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_172" model="rentsport.user.coupon">
+			<field name="codigo">ba50a8bd70de</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-04-17</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_173" model="rentsport.user.coupon">
+			<field name="codigo">e1521a1b973d</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-02-22</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_174" model="rentsport.user.coupon">
+			<field name="codigo">1165b32d601a</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-05-03</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_175" model="rentsport.user.coupon">
+			<field name="codigo">bff5cca27684</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-02-03</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_176" model="rentsport.user.coupon">
+			<field name="codigo">af1954a46d07</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-06-14</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_177" model="rentsport.user.coupon">
+			<field name="codigo">f02c39fea603</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-08-14</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_178" model="rentsport.user.coupon">
+			<field name="codigo">40f6937d9d90</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-09-03</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_179" model="rentsport.user.coupon">
+			<field name="codigo">297b0c1652da</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-05-31</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_180" model="rentsport.user.coupon">
+			<field name="codigo">e0dc628181d9</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-05-04</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_181" model="rentsport.user.coupon">
+			<field name="codigo">a0d3ecf23a65</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-07-25</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_182" model="rentsport.user.coupon">
+			<field name="codigo">8f48bc86999b</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-03-14</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_183" model="rentsport.user.coupon">
+			<field name="codigo">61138ca59de4</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-05-11</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_184" model="rentsport.user.coupon">
+			<field name="codigo">722efb25c0e3</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-08-18</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_185" model="rentsport.user.coupon">
+			<field name="codigo">8516a8a2b8ac</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-05-18</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_186" model="rentsport.user.coupon">
+			<field name="codigo">d6b0236f95a6</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-02-13</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_187" model="rentsport.user.coupon">
+			<field name="codigo">b088c448ec55</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-09-05</field>
+			<field name="usuario_id" ref="base.res_partner_3"/></record>
+		<record id="user_coupon_test_188" model="rentsport.user.coupon">
+			<field name="codigo">c1ebb80a59bf</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-07-09</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_189" model="rentsport.user.coupon">
+			<field name="codigo">62fd1f59ab79</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-08-21</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_190" model="rentsport.user.coupon">
+			<field name="codigo">15fc14725570</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-04-17</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_191" model="rentsport.user.coupon">
+			<field name="codigo">f83aa07fc7e2</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-07-13</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_192" model="rentsport.user.coupon">
+			<field name="codigo">e0145890aa76</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-01-25</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_193" model="rentsport.user.coupon">
+			<field name="codigo">18e7f4e7d323</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-07-12</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_194" model="rentsport.user.coupon">
+			<field name="codigo">9ba76cf01074</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-07-19</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_195" model="rentsport.user.coupon">
+			<field name="codigo">276efd7f2a53</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-02-24</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_196" model="rentsport.user.coupon">
+			<field name="codigo">68d481fc0ec5</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-07-17</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_197" model="rentsport.user.coupon">
+			<field name="codigo">bd70cd9d3e92</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-08-13</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_198" model="rentsport.user.coupon">
+			<field name="codigo">228507bb31a4</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-04-29</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_199" model="rentsport.user.coupon">
+			<field name="codigo">ae470d0e9a89</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-03-29</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_200" model="rentsport.user.coupon">
+			<field name="codigo">c31367c04da7</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-07-02</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_201" model="rentsport.user.coupon">
+			<field name="codigo">73e32aa6b5d1</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-06-26</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_202" model="rentsport.user.coupon">
+			<field name="codigo">3fcea8e0ff1c</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-09-03</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_203" model="rentsport.user.coupon">
+			<field name="codigo">03311d3738a5</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-06-02</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_204" model="rentsport.user.coupon">
+			<field name="codigo">fdeca5f2a50e</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-08-07</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_205" model="rentsport.user.coupon">
+			<field name="codigo">7da23c8562fa</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-07-06</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_206" model="rentsport.user.coupon">
+			<field name="codigo">cb24184a5eb4</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-04-06</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_207" model="rentsport.user.coupon">
+			<field name="codigo">255dd2c72656</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-03-13</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_208" model="rentsport.user.coupon">
+			<field name="codigo">be9ee520a66a</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-08-11</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_209" model="rentsport.user.coupon">
+			<field name="codigo">562f86c98c65</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-02-05</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_210" model="rentsport.user.coupon">
+			<field name="codigo">d5a79ab11235</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-21</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_211" model="rentsport.user.coupon">
+			<field name="codigo">e447c535e1e4</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-04-30</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_212" model="rentsport.user.coupon">
+			<field name="codigo">f84c9832eb98</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-01</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_213" model="rentsport.user.coupon">
+			<field name="codigo">ed3f55969ca3</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-08-16</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_214" model="rentsport.user.coupon">
+			<field name="codigo">5734644c4725</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-05-27</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_215" model="rentsport.user.coupon">
+			<field name="codigo">104a67a1ad0c</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-03-22</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_216" model="rentsport.user.coupon">
+			<field name="codigo">226ba5c51d79</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-05-05</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_217" model="rentsport.user.coupon">
+			<field name="codigo">5eb07e92a6fe</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-08</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_218" model="rentsport.user.coupon">
+			<field name="codigo">782b807b15ed</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-05-05</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_219" model="rentsport.user.coupon">
+			<field name="codigo">0cf4ebdf0c45</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-11</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_220" model="rentsport.user.coupon">
+			<field name="codigo">f7b809c5dbb4</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-07-05</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_221" model="rentsport.user.coupon">
+			<field name="codigo">b605a98c6eb0</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-03-12</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_222" model="rentsport.user.coupon">
+			<field name="codigo">524576e58386</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-02-20</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_223" model="rentsport.user.coupon">
+			<field name="codigo">de59a4e9ad2e</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-04-23</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_224" model="rentsport.user.coupon">
+			<field name="codigo">fab1126d72c2</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-11</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_225" model="rentsport.user.coupon">
+			<field name="codigo">d401e5c7ae64</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-06</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_226" model="rentsport.user.coupon">
+			<field name="codigo">731b1d918815</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-02-18</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_227" model="rentsport.user.coupon">
+			<field name="codigo">d2b1779d2299</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-03-16</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_228" model="rentsport.user.coupon">
+			<field name="codigo">7498bc5ab750</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-05-12</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_229" model="rentsport.user.coupon">
+			<field name="codigo">bd2d7e6d89c3</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-08-19</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_230" model="rentsport.user.coupon">
+			<field name="codigo">bf5c31da0c29</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-02-08</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_231" model="rentsport.user.coupon">
+			<field name="codigo">7c02240d67e4</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-04-24</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_232" model="rentsport.user.coupon">
+			<field name="codigo">00b3c207b763</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-02-11</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_233" model="rentsport.user.coupon">
+			<field name="codigo">5e448874c877</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-05-12</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_234" model="rentsport.user.coupon">
+			<field name="codigo">2ead83bdd883</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-04-03</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_235" model="rentsport.user.coupon">
+			<field name="codigo">d9959ace3be4</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-04-01</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_236" model="rentsport.user.coupon">
+			<field name="codigo">d2e52bd17655</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-02-03</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_237" model="rentsport.user.coupon">
+			<field name="codigo">7cae40ece311</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-07-23</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_238" model="rentsport.user.coupon">
+			<field name="codigo">07c243ba7479</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-02-22</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_239" model="rentsport.user.coupon">
+			<field name="codigo">c092e91d4e7c</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-08-05</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_240" model="rentsport.user.coupon">
+			<field name="codigo">041a80c43ed3</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-04-06</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_241" model="rentsport.user.coupon">
+			<field name="codigo">714c0d1992c3</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-06-27</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_242" model="rentsport.user.coupon">
+			<field name="codigo">3057deae41cc</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-05-10</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_243" model="rentsport.user.coupon">
+			<field name="codigo">14b2dca44bec</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-03-16</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_244" model="rentsport.user.coupon">
+			<field name="codigo">27a397d6d24a</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-07-27</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_245" model="rentsport.user.coupon">
+			<field name="codigo">4d0259f0d36b</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-01-13</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_246" model="rentsport.user.coupon">
+			<field name="codigo">36d2ecde4aca</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-02-02</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_247" model="rentsport.user.coupon">
+			<field name="codigo">f5614ffbfaa3</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-04-06</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_248" model="rentsport.user.coupon">
+			<field name="codigo">bf9d569ea363</field>
+			<field name="codigo_usado">activo</field>
+			<field name="fecha_validez" >2017-08-13</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+		<record id="user_coupon_test_249" model="rentsport.user.coupon">
+			<field name="codigo">cad3c581ac3a</field>
+			<field name="codigo_usado">usado</field>
+			<field name="fecha_validez" >2017-07-03</field>
+			<field name="usuario_id" ref="base.res_partner_4"/></record>
+	</data>
+</odoo>

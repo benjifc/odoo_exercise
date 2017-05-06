@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+	<data>
+		<record id="sport_installation_test_1" model="rentsport.sport.installation">
+			<field name="nombre">Et LLC</field>
+			<field name="ubicacion">Cantillana</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_6"/>
+		</record>
+		<record id="sport_installation_test_2" model="rentsport.sport.installation">
+			<field name="nombre">Nulla In Tincidunt Corporation</field>
+			<field name="ubicacion">La Luisiana</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_2"/>
+		</record>
+		<record id="sport_installation_test_3" model="rentsport.sport.installation">
+			<field name="nombre">Parturient Montes Nascetur Associates</field>
+			<field name="ubicacion">San Juan de Aznalfarache</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_7"/>
+		</record>
+		<record id="sport_installation_test_4" model="rentsport.sport.installation">
+			<field name="nombre">Lectus Ante Dictum PC</field>
+			<field name="ubicacion">Peñaflor</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_12"/>
+		</record>
+		<record id="sport_installation_test_5" model="rentsport.sport.installation">
+			<field name="nombre">Euismod Enim Etiam Consulting</field>
+			<field name="ubicacion">Lora de Estepa</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_9"/>
+		</record>
+		<record id="sport_installation_test_6" model="rentsport.sport.installation">
+			<field name="nombre">Fusce Aliquam Institute</field>
+			<field name="ubicacion">Castilleja del Campo</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_12"/>
+		</record>
+		<record id="sport_installation_test_7" model="rentsport.sport.installation">
+			<field name="nombre">Felis Eget Incorporated</field>
+			<field name="ubicacion">El Cuervo de Sevilla</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_4"/>
+		</record>
+		<record id="sport_installation_test_8" model="rentsport.sport.installation">
+			<field name="nombre">Felis Purus Corp.</field>
+			<field name="ubicacion">Alcalá del Río</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_11"/>
+		</record>
+		<record id="sport_installation_test_9" model="rentsport.sport.installation">
+			<field name="nombre">Curae; Donec LLP</field>
+			<field name="ubicacion">La Algaba</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_2"/>
+		</record>
+		<record id="sport_installation_test_10" model="rentsport.sport.installation">
+			<field name="nombre">Velit Foundation</field>
+			<field name="ubicacion">Almadén de la Plata</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_10"/>
+		</record>
+		<record id="sport_installation_test_11" model="rentsport.sport.installation">
+			<field name="nombre">Non Consulting</field>
+			<field name="ubicacion">Coria del Río</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_2"/>
+		</record>
+		<record id="sport_installation_test_12" model="rentsport.sport.installation">
+			<field name="nombre">Erat Vivamus Inc.</field>
+			<field name="ubicacion">La Puebla de Cazalla</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_6"/>
+		</record>
+		<record id="sport_installation_test_13" model="rentsport.sport.installation">
+			<field name="nombre">Pellentesque Inc.</field>
+			<field name="ubicacion">Guillena</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_8"/>
+		</record>
+		<record id="sport_installation_test_14" model="rentsport.sport.installation">
+			<field name="nombre">Aliquam Corporation</field>
+			<field name="ubicacion">La Puebla del Río</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_4"/>
+		</record>
+		<record id="sport_installation_test_15" model="rentsport.sport.installation">
+			<field name="nombre">Vitae Erat Vivamus Associates</field>
+			<field name="ubicacion">Tocina</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_8"/>
+		</record>
+		<record id="sport_installation_test_16" model="rentsport.sport.installation">
+			<field name="nombre">Porttitor Tellus Non Limited</field>
+			<field name="ubicacion">Mairena del Aljarafe</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_9"/>
+		</record>
+		<record id="sport_installation_test_17" model="rentsport.sport.installation">
+			<field name="nombre">Lacus Corporation</field>
+			<field name="ubicacion">Aguadulce</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_3"/>
+		</record>
+		<record id="sport_installation_test_18" model="rentsport.sport.installation">
+			<field name="nombre">Mauris Ut Foundation</field>
+			<field name="ubicacion">Castilleja de la Cuesta</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_11"/>
+		</record>
+		<record id="sport_installation_test_19" model="rentsport.sport.installation">
+			<field name="nombre">Ligula Inc.</field>
+			<field name="ubicacion">Umbrete</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_6"/>
+		</record>
+		<record id="sport_installation_test_20" model="rentsport.sport.installation">
+			<field name="nombre">Pellentesque Eget LLC</field>
+			<field name="ubicacion">La Roda de Andalucía</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_5"/>
+		</record>
+		<record id="sport_installation_test_21" model="rentsport.sport.installation">
+			<field name="nombre">Tincidunt Vehicula Risus Consulting</field>
+			<field name="ubicacion">El Garrobo</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_7"/>
+		</record>
+		<record id="sport_installation_test_22" model="rentsport.sport.installation">
+			<field name="nombre">Turpis Vitae Purus Industries</field>
+			<field name="ubicacion">Gilena</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_4"/>
+		</record>
+		<record id="sport_installation_test_23" model="rentsport.sport.installation">
+			<field name="nombre">Cursus Industries</field>
+			<field name="ubicacion">Umbrete</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_6"/>
+		</record>
+		<record id="sport_installation_test_24" model="rentsport.sport.installation">
+			<field name="nombre">Erat Industries</field>
+			<field name="ubicacion">Tocina</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_10"/>
+		</record>
+		<record id="sport_installation_test_25" model="rentsport.sport.installation">
+			<field name="nombre">Curabitur Company</field>
+			<field name="ubicacion">Pruna</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_1"/>
+		</record>
+		<record id="sport_installation_test_26" model="rentsport.sport.installation">
+			<field name="nombre">Aliquam Institute</field>
+			<field name="ubicacion">Las Navas de la Concepción</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_5"/>
+		</record>
+		<record id="sport_installation_test_27" model="rentsport.sport.installation">
+			<field name="nombre">Magnis Dis Associates</field>
+			<field name="ubicacion">Santiponce</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_2"/>
+		</record>
+		<record id="sport_installation_test_28" model="rentsport.sport.installation">
+			<field name="nombre">Nibh Inc.</field>
+			<field name="ubicacion">Alcalá del Río</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_12"/>
+		</record>
+		<record id="sport_installation_test_29" model="rentsport.sport.installation">
+			<field name="nombre">Placerat LLP</field>
+			<field name="ubicacion">Cazalla de la Sierra</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_2"/>
+		</record>
+		<record id="sport_installation_test_30" model="rentsport.sport.installation">
+			<field name="nombre">Tortor Industries</field>
+			<field name="ubicacion">El Ronquillo</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_10"/>
+		</record>
+		<record id="sport_installation_test_31" model="rentsport.sport.installation">
+			<field name="nombre">Ullamcorper Nisl Institute</field>
+			<field name="ubicacion">Fuentes de Andalucía</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_6"/>
+		</record>
+		<record id="sport_installation_test_32" model="rentsport.sport.installation">
+			<field name="nombre">Euismod Est Arcu Industries</field>
+			<field name="ubicacion">San Nicolás del Puerto</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_6"/>
+		</record>
+		<record id="sport_installation_test_33" model="rentsport.sport.installation">
+			<field name="nombre">Tincidunt Pede Ac Consulting</field>
+			<field name="ubicacion">Los Molares</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_4"/>
+		</record>
+		<record id="sport_installation_test_34" model="rentsport.sport.installation">
+			<field name="nombre">Amet Faucibus Ut Industries</field>
+			<field name="ubicacion">Marinaleda</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_11"/>
+		</record>
+		<record id="sport_installation_test_35" model="rentsport.sport.installation">
+			<field name="nombre">Vestibulum Limited</field>
+			<field name="ubicacion">Castilleja de la Cuesta</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_8"/>
+		</record>
+		<record id="sport_installation_test_36" model="rentsport.sport.installation">
+			<field name="nombre">Scelerisque LLC</field>
+			<field name="ubicacion">Burguillos</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_11"/>
+		</record>
+		<record id="sport_installation_test_37" model="rentsport.sport.installation">
+			<field name="nombre">Ipsum Foundation</field>
+			<field name="ubicacion">Pedrera</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_11"/>
+		</record>
+		<record id="sport_installation_test_38" model="rentsport.sport.installation">
+			<field name="nombre">Non Leo Limited</field>
+			<field name="ubicacion">Albaida del Aljarafe</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_2"/>
+		</record>
+		<record id="sport_installation_test_39" model="rentsport.sport.installation">
+			<field name="nombre">Dolor Dapibus PC</field>
+			<field name="ubicacion">Arahal</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_3"/>
+		</record>
+		<record id="sport_installation_test_40" model="rentsport.sport.installation">
+			<field name="nombre">Vestibulum Industries</field>
+			<field name="ubicacion">Aznalcázar</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_9"/>
+		</record>
+		<record id="sport_installation_test_41" model="rentsport.sport.installation">
+			<field name="nombre">Suspendisse Ac Metus Inc.</field>
+			<field name="ubicacion">El Coronil</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_1"/>
+		</record>
+		<record id="sport_installation_test_42" model="rentsport.sport.installation">
+			<field name="nombre">Ornare Fusce PC</field>
+			<field name="ubicacion">Huévar del Aljarafe</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_2"/>
+		</record>
+		<record id="sport_installation_test_43" model="rentsport.sport.installation">
+			<field name="nombre">Cras Dictum LLC</field>
+			<field name="ubicacion">Alcalá del Río</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_12"/>
+		</record>
+		<record id="sport_installation_test_44" model="rentsport.sport.installation">
+			<field name="nombre">Elit Erat Corporation</field>
+			<field name="ubicacion">San Juan de Aznalfarache</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_7"/>
+		</record>
+		<record id="sport_installation_test_45" model="rentsport.sport.installation">
+			<field name="nombre">Lorem Tristique Foundation</field>
+			<field name="ubicacion">Alcolea del Río</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_4"/>
+		</record>
+		<record id="sport_installation_test_46" model="rentsport.sport.installation">
+			<field name="nombre">Ante Maecenas Mi Corp.</field>
+			<field name="ubicacion">Los Molares</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_9"/>
+		</record>
+		<record id="sport_installation_test_47" model="rentsport.sport.installation">
+			<field name="nombre">Non Ante Bibendum PC</field>
+			<field name="ubicacion">El Saucejo</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_5"/>
+		</record>
+		<record id="sport_installation_test_48" model="rentsport.sport.installation">
+			<field name="nombre">Tellus Faucibus Incorporated</field>
+			<field name="ubicacion">Dos Hermanas</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_4"/>
+		</record>
+		<record id="sport_installation_test_49" model="rentsport.sport.installation">
+			<field name="nombre">Blandit Consulting</field>
+			<field name="ubicacion">Brenes</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_4"/>
+		</record>
+		<record id="sport_installation_test_50" model="rentsport.sport.installation">
+			<field name="nombre">Vivamus Sit Amet Institute</field>
+			<field name="ubicacion">San Nicolás del Puerto</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_3"/>
+		</record>
+		<record id="sport_installation_test_51" model="rentsport.sport.installation">
+			<field name="nombre">Duis PC</field>
+			<field name="ubicacion">Castilblanco de los Arroyos</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_3"/>
+		</record>
+		<record id="sport_installation_test_52" model="rentsport.sport.installation">
+			<field name="nombre">Suspendisse Tristique Neque Inc.</field>
+			<field name="ubicacion">Tocina</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_10"/>
+		</record>
+		<record id="sport_installation_test_53" model="rentsport.sport.installation">
+			<field name="nombre">Sagittis Lobortis Mauris Company</field>
+			<field name="ubicacion">Cañada Rosal</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_9"/>
+		</record>
+		<record id="sport_installation_test_54" model="rentsport.sport.installation">
+			<field name="nombre">Ullamcorper Viverra Industries</field>
+			<field name="ubicacion">El Viso del Alcor</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_8"/>
+		</record>
+		<record id="sport_installation_test_55" model="rentsport.sport.installation">
+			<field name="nombre">Suspendisse Eleifend Foundation</field>
+			<field name="ubicacion">Lora del Río</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_9"/>
+		</record>
+		<record id="sport_installation_test_56" model="rentsport.sport.installation">
+			<field name="nombre">Consequat Associates</field>
+			<field name="ubicacion">Guadalcanal</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_4"/>
+		</record>
+		<record id="sport_installation_test_57" model="rentsport.sport.installation">
+			<field name="nombre">Venenatis A Associates</field>
+			<field name="ubicacion">Gines</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_2"/>
+		</record>
+		<record id="sport_installation_test_58" model="rentsport.sport.installation">
+			<field name="nombre">Vitae Nibh Donec Ltd</field>
+			<field name="ubicacion">Alcalá del Río</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_8"/>
+		</record>
+		<record id="sport_installation_test_59" model="rentsport.sport.installation">
+			<field name="nombre">Cursus Diam At Ltd</field>
+			<field name="ubicacion">Carrión de los Céspedes</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_1"/>
+		</record>
+		<record id="sport_installation_test_60" model="rentsport.sport.installation">
+			<field name="nombre">Ipsum Company</field>
+			<field name="ubicacion">Villanueva del Ariscal</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_11"/>
+		</record>
+		<record id="sport_installation_test_61" model="rentsport.sport.installation">
+			<field name="nombre">Molestie Arcu Sed Corporation</field>
+			<field name="ubicacion">Huévar del Aljarafe</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_3"/>
+		</record>
+		<record id="sport_installation_test_62" model="rentsport.sport.installation">
+			<field name="nombre">Magna Industries</field>
+			<field name="ubicacion">San Nicolás del Puerto</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_6"/>
+		</record>
+		<record id="sport_installation_test_63" model="rentsport.sport.installation">
+			<field name="nombre">Elit Pede Company</field>
+			<field name="ubicacion">Tomares</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_11"/>
+		</record>
+		<record id="sport_installation_test_64" model="rentsport.sport.installation">
+			<field name="nombre">Non Enim Associates</field>
+			<field name="ubicacion">Los Palacios y Villafranca</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_12"/>
+		</record>
+		<record id="sport_installation_test_65" model="rentsport.sport.installation">
+			<field name="nombre">Diam Proin Company</field>
+			<field name="ubicacion">Paradas</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_1"/>
+		</record>
+		<record id="sport_installation_test_66" model="rentsport.sport.installation">
+			<field name="nombre">Proin Ultrices Duis Foundation</field>
+			<field name="ubicacion">Gelves</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_12"/>
+		</record>
+		<record id="sport_installation_test_67" model="rentsport.sport.installation">
+			<field name="nombre">Pede Ac Urna LLC</field>
+			<field name="ubicacion">Castilleja de Guzmán</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_4"/>
+		</record>
+		<record id="sport_installation_test_68" model="rentsport.sport.installation">
+			<field name="nombre">Quisque Libero PC</field>
+			<field name="ubicacion">El Garrobo</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_7"/>
+		</record>
+		<record id="sport_installation_test_69" model="rentsport.sport.installation">
+			<field name="nombre">Fringilla Porttitor Vulputate Industries</field>
+			<field name="ubicacion">Alcolea del Río</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_9"/>
+		</record>
+		<record id="sport_installation_test_70" model="rentsport.sport.installation">
+			<field name="nombre">Et Magnis Institute</field>
+			<field name="ubicacion">Almadén de la Plata</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_1"/>
+		</record>
+		<record id="sport_installation_test_71" model="rentsport.sport.installation">
+			<field name="nombre">Nec Consulting</field>
+			<field name="ubicacion">Los Corrales</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_12"/>
+		</record>
+		<record id="sport_installation_test_72" model="rentsport.sport.installation">
+			<field name="nombre">Nullam Corp.</field>
+			<field name="ubicacion">Almadén de la Plata</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_9"/>
+		</record>
+		<record id="sport_installation_test_73" model="rentsport.sport.installation">
+			<field name="nombre">Ante Bibendum Inc.</field>
+			<field name="ubicacion">Pedrera</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_6"/>
+		</record>
+		<record id="sport_installation_test_74" model="rentsport.sport.installation">
+			<field name="nombre">Senectus Et Inc.</field>
+			<field name="ubicacion">La Luisiana</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_2"/>
+		</record>
+		<record id="sport_installation_test_75" model="rentsport.sport.installation">
+			<field name="nombre">Vitae Corp.</field>
+			<field name="ubicacion">Guillena</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_10"/>
+		</record>
+		<record id="sport_installation_test_76" model="rentsport.sport.installation">
+			<field name="nombre">Vitae Institute</field>
+			<field name="ubicacion">Guadalcanal</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_4"/>
+		</record>
+		<record id="sport_installation_test_77" model="rentsport.sport.installation">
+			<field name="nombre">Aenean Euismod Incorporated</field>
+			<field name="ubicacion">Cazalla de la Sierra</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_9"/>
+		</record>
+		<record id="sport_installation_test_78" model="rentsport.sport.installation">
+			<field name="nombre">Aliquam Eros Limited</field>
+			<field name="ubicacion">La Puebla del Río</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_6"/>
+		</record>
+		<record id="sport_installation_test_79" model="rentsport.sport.installation">
+			<field name="nombre">Aliquet Molestie LLC</field>
+			<field name="ubicacion">La Puebla del Río</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_7"/>
+		</record>
+		<record id="sport_installation_test_80" model="rentsport.sport.installation">
+			<field name="nombre">In Scelerisque Scelerisque Company</field>
+			<field name="ubicacion">Cañada Rosal</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_6"/>
+		</record>
+		<record id="sport_installation_test_81" model="rentsport.sport.installation">
+			<field name="nombre">Est LLC</field>
+			<field name="ubicacion">Huévar del Aljarafe</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_4"/>
+		</record>
+		<record id="sport_installation_test_82" model="rentsport.sport.installation">
+			<field name="nombre">Felis Consulting</field>
+			<field name="ubicacion">Villanueva del Río y Minas</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_10"/>
+		</record>
+		<record id="sport_installation_test_83" model="rentsport.sport.installation">
+			<field name="nombre">Quisque Industries</field>
+			<field name="ubicacion">La Puebla del Río</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_5"/>
+		</record>
+		<record id="sport_installation_test_84" model="rentsport.sport.installation">
+			<field name="nombre">Cursus Diam At LLP</field>
+			<field name="ubicacion">Villaverde del Río</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_6"/>
+		</record>
+		<record id="sport_installation_test_85" model="rentsport.sport.installation">
+			<field name="nombre">Aenean Limited</field>
+			<field name="ubicacion">Arahal</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_2"/>
+		</record>
+		<record id="sport_installation_test_86" model="rentsport.sport.installation">
+			<field name="nombre">Turpis Vitae Purus Corporation</field>
+			<field name="ubicacion">Castilleja de la Cuesta</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_4"/>
+		</record>
+		<record id="sport_installation_test_87" model="rentsport.sport.installation">
+			<field name="nombre">Fringilla Cursus Company</field>
+			<field name="ubicacion">El Saucejo</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_12"/>
+		</record>
+		<record id="sport_installation_test_88" model="rentsport.sport.installation">
+			<field name="nombre">Ante Vivamus Non LLP</field>
+			<field name="ubicacion">Estepa</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_12"/>
+		</record>
+		<record id="sport_installation_test_89" model="rentsport.sport.installation">
+			<field name="nombre">Risus Donec Nibh LLC</field>
+			<field name="ubicacion">Cañada Rosal</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_4"/>
+		</record>
+		<record id="sport_installation_test_90" model="rentsport.sport.installation">
+			<field name="nombre">Ante Blandit Viverra Institute</field>
+			<field name="ubicacion">Albaida del Aljarafe</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_4"/>
+		</record>
+		<record id="sport_installation_test_91" model="rentsport.sport.installation">
+			<field name="nombre">Luctus Lobortis PC</field>
+			<field name="ubicacion">El Castillo de las Guardas</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_3"/>
+		</record>
+		<record id="sport_installation_test_92" model="rentsport.sport.installation">
+			<field name="nombre">Parturient Company</field>
+			<field name="ubicacion">Sanlúcar la Mayor</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_12"/>
+		</record>
+		<record id="sport_installation_test_93" model="rentsport.sport.installation">
+			<field name="nombre">Nullam LLC</field>
+			<field name="ubicacion">El Garrobo</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_3"/>
+		</record>
+		<record id="sport_installation_test_94" model="rentsport.sport.installation">
+			<field name="nombre">Diam Incorporated</field>
+			<field name="ubicacion">Huévar del Aljarafe</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_7"/>
+		</record>
+		<record id="sport_installation_test_95" model="rentsport.sport.installation">
+			<field name="nombre">Eu Ultrices Sit Incorporated</field>
+			<field name="ubicacion">Écija</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_12"/>
+		</record>
+		<record id="sport_installation_test_96" model="rentsport.sport.installation">
+			<field name="nombre">Ullamcorper Velit Incorporated</field>
+			<field name="ubicacion">Pedrera</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_6"/>
+		</record>
+		<record id="sport_installation_test_97" model="rentsport.sport.installation">
+			<field name="nombre">Consectetuer PC</field>
+			<field name="ubicacion">Espartinas</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_1"/>
+		</record>
+		<record id="sport_installation_test_98" model="rentsport.sport.installation">
+			<field name="nombre">Ipsum Company</field>
+			<field name="ubicacion">La Puebla de Cazalla</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_6"/>
+		</record>
+		<record id="sport_installation_test_99" model="rentsport.sport.installation">
+			<field name="nombre">Lorem Ipsum Sodales Industries</field>
+			<field name="ubicacion">Tocina</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_10"/>
+		</record>
+		<record id="sport_installation_test_100" model="rentsport.sport.installation">
+			<field name="nombre">Lacus Cras Interdum Foundation</field>
+			<field name="ubicacion">Castilleja del Campo</field>
+			<field name="tipo_pista" ref="rentsport_installation_type_6"/>
+		</record>
+	</data>
+</odoo>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+     <record id="rentsport_sport_installations_search_view" model="ir.ui.view">
+        <field name="name">rentsport.sport.installation.search</field>
+        <field name="model">rentsport.sport.installation</field>
+        <field name="arch" type="xml">
+            <search string="Search">
+                <field name="nombre"/>
+                <field name="ubicacion"/>
+            </search>
+        </field>
+    </record>
+
+    <record id="rentsport_sport_installations_form_view" model="ir.ui.view">
+        <field name="name">rentsport.sport.installation.form</field>
+        <field name="model">rentsport.sport.installation</field>
+        <field name="arch" type="xml">
+            <form string="Instalacion">
+              <!--  <header>
+                    <button name="open_new_session_dialog" type="object" string="Crear sesion" states="por_empezar"/>
+                    <button name="activate_course" type="object" string="Activar curso" states="por_empezar"/>
+                    <button name="finish_course" type="object" string="Finalizar curso" states="activo"/>
+                </header>-->
+                <sheet>
+                    <group>
+                        <field name="nombre" string="Nombre de la instalacion" required="1"/>
+                        <field name="ubicacion" required="1"/>
+                        <field name="tipo_pista"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+   <record id="rentsport_sport_installations_tree_view" model="ir.ui.view">
+        <field name="name">rentsport.sport.installation.tree</field>
+        <field name="model">rentsport.sport.installation</field>
+        <field name="arch" type="xml">
+            <tree string="Instalaciones">
+                <field name="nombre"/>
+                <field name="ubicacion"/>
+                <field name="tipo_pista"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="rentsport_sport_installations_action" model="ir.actions.act_window">
+        <field name="name">Instalaciones</field>
+        <field name="res_model">rentsport.sport.installation</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+                <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Click para crear una instalación nueva
+            </p>
+        </field>
+    </record>
+
+</odoo>

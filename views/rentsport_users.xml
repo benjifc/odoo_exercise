@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <act_window id="act_qunar_product_expense_merge_wizard" name="Merge Wizard" src_model="res.partner" res_model="rentsport.new.user.wizard" key2="client_action_multi" target="new" view_mode="form" multi="True"/>
-    <record id="rentsport_res_partner_search_view" model="ir.ui.view">
+     <record id="rentsport_res_partner_search_view" model="ir.ui.view">
         <field name="name">res.partner.search</field>
         <field name="model">res.partner</field>
         <field name="arch" type="xml">
@@ -13,11 +12,40 @@
             </search>
         </field>
     </record>
+
+
     <record id="rentsport_res_partner_form_view" model="ir.ui.view">
         <field name="name">res.partner.form</field>
         <field name="model">res.partner</field>
         <field name="inherit_id" ref="base.view_partner_form"/>
         <field name="arch" type="xml">
+            <xpath expr="/form" position="attributes">
+                <attribute name="string">Usuario</attribute>
+                <attribute name="edit">false</attribute>
+                <attribute name="create">false</attribute>
+            </xpath>
+            <div name="button_box" position="inside">
+                <button class="oe_stat_button" type="object"
+                    name="open_user_coupons"
+                    icon="fa-calendar">
+                    <field string="Cupones" name="total_user_coupons" widget="statinfo"/>
+                </button>
+                <button class="oe_stat_button" type="object"
+                    name="open_user_new_coupons"
+                    icon="fa-tags" string="Nuevo cupón"/>
+            </div>
+            <xpath expr="//notebook" position="inside">
+                <page string="Cupones" autofocus="autofocus">
+				    <field name="cupones_ids" mode="tree"  domain="[('fecha_validez', '>=', (context_today()).strftime('%%Y-%%m-%%d 00:00:00'))]">
+                        <tree>
+                            <field name="codigo"/>
+                            <field name="fecha_validez"/>
+                            <field name="codigo_usado"/>
+
+                        </tree>
+                    </field>
+			    </page>
+            </xpath>
 
                 <field name="category_id" position="after">
                     <field name="es_usuario"/>

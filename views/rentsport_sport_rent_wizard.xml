@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="rentsport_sport_rent_wizard_form_view" model="ir.ui.view">
+        <field name="name">rentsport.sport.rent.wizard.form</field>
+        <field name="model">rentsport.sport.rent.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Nuevo Usuario" >
+                <group>
+                    <field name="fecha_inicio" widget="date"/>
+                    <field name="duracion" />
+                    <field name="tipo_pista" />
+                    <field name="instalaciones" />
+                    <field name="pistas_disponibles" />
+
+                </group>
+                <footer>
+                    <button name="reservar" icon="fa-plus" type="object" string="Reservar"/>
+                    <button special="cancel" icon="fa-times" string="Cancelar"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+    <record id="rentsport_sport_rent_wizard_action" model="ir.actions.act_window">
+        <field name="name">Nuevo Usuario</field>
+        <field name="res_model">rentsport.sport.rent.wizard</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+</odoo>

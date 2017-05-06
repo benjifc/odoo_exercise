@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+     <record id="rentsport_user_coupons_search_view" model="ir.ui.view">
+        <field name="name">rentsport.user.coupon.search</field>
+        <field name="model">rentsport.user.coupon</field>
+        <field name="arch" type="xml">
+            <search string="Search">
+                <field name="codigo"/>
+                <field name="fecha_validez"/>
+                <field name="usuario_id"/>
+                 <filter string="Codigos Activos" icon="terp-check" name="filter_active" domain="[('fecha_validez', '&gt;=', (context_today()).strftime('%%Y-%%m-%%d 00:00:00')),('codigo_usado','=','activo')]"/>
+                  <separator orientation="vertical"/>
+                 <filter string="Hoy en adelante" icon="terp-go-today" name="filter_today" domain="[('fecha_validez', '&gt;=', (context_today()).strftime('%%Y-%%m-%%d 00:00:00'))]"/>
+                 <filter string="Anteriores a hoy" icon="terp-locked" name="filter_last" domain="[('fecha_validez', '&lt;', (context_today()).strftime('%%Y-%%m-%%d 00:00:00'))]"/>
+                 <filter string="Este Mes" icon="terp-go-month" name="filter_this_month" domain="[('fecha_validez','&gt;=',(context_today()).strftime('%%Y-%%m-01'))]"/>
+
+            </search>
+        </field>
+    </record>
+
+   <record id="rentsport_user_coupons_calendar_view" model="ir.ui.view">
+        <field name="name">rentsport.user.coupon.calendar</field>
+        <field name="model">rentsport.user.coupon</field>
+        <field name="arch" type="xml">
+            <calendar string="Cupon"
+                    color="usuario_id"
+                    date_start="fecha_validez"
+                    date_stop="fecha_validez"
+                    display="[usuario_id] - [codigo_usado] - [codigo]"
+                    avatar_model="res.partner"
+                    mode="month">
+                <field name="usuario_id"/>
+                <field name="codigo"/>
+                <field name="fecha_validez"/>
+                <field name="codigo_usado"/>
+            </calendar>
+        </field>
+    </record>
+
+   <record id="rentsport_user_coupons_tree_view" model="ir.ui.view">
+        <field name="name">rentsport.rentsport.user.coupon.tree</field>
+        <field name="model">rentsport.user.coupon</field>
+        <field name="arch" type="xml">
+            <tree string="Cupones"
+                  create="0"
+                  edit="0"
+                  decoration-danger="codigo_usado=='usado'"
+                  decoration-info="fecha_validez&lt; current_date">
+
+
+                <field name="usuario_id"/>
+                <field name="codigo"/>
+                <field name="fecha_validez"/>
+                <field name="codigo_usado" style="text-align: center;"/>
+            </tree>
+        </field>
+    </record>
+    <record id="rentsport_coupons_action" model="ir.actions.act_window">
+        <field name="name">Cupones</field>
+        <field name="res_model">rentsport.user.coupon</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">calendar,tree</field>
+        <field name="context">{"search_default_filter_active":1}</field>
+    </record>
+
+</odoo>

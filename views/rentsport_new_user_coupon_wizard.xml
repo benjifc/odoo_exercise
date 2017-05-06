@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="rentsport_new_user_coupon_wizard_form_view" model="ir.ui.view">
+        <field name="name">rentsport.new.user.coupon.wizard.form</field>
+        <field name="model">rentsport.new.user.coupon.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Nuevo Usuario" >
+                <group>
+                    <field name="fecha_validez" widget="date"/>
+                </group>
+                <footer>
+                    <button name="crear_cupon" icon="fa-plus" type="object" string="Crear cupon"/>
+                    <button special="cancel" icon="fa-times" string="Cancelar"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+    <record id="rentsport_new_user_coupon_wizard_action" model="ir.actions.act_window">
+        <field name="name">Nuevo Usuario</field>
+        <field name="res_model">rentsport.new.user.coupon.wizard</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+</odoo>

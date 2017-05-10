@@ -18,7 +18,30 @@
             </search>
         </field>
     </record>
+     <record id="rentsport_user_coupons_kanban_view" model="ir.ui.view">
+            <field name="name">rentsport.user.coupon.calendar</field>
+            <field name="model">rentsport.user.coupon</field>
+            <field name="arch" type="xml">
+            <kanban create="0" edit="0">
 
+                                        <templates>
+                                            <t t-name="kanban-box">
+                                                <div class="oe_resource_vignette">
+                                                  <div class="oe_resource_details" style="display:block;">
+
+
+                                                      <div  style="color:blue;margin:0;font-weight:bold"><i class="fa fa-calendar" aria-hidden="true"><field name="fecha_validez"/></i></div>
+                                                      <div  style="margin:0;font-weight:bold"><i class="fa fa-ticket" aria-hidden="true"><field name="codigo"/></i></div>
+                                                      <div  style="color:green;margin:0;font-weight:bold"><i class="fa fa-chevron-right" aria-hidden="true"><field name="codigo_usado"/></i></div>
+
+
+                                                  </div>
+                                                </div>
+                                            </t>
+                                        </templates>
+            </kanban>
+         </field>
+    </record>
    <record id="rentsport_user_coupons_calendar_view" model="ir.ui.view">
         <field name="name">rentsport.user.coupon.calendar</field>
         <field name="model">rentsport.user.coupon</field>
@@ -60,7 +83,7 @@
         <field name="name">Cupones</field>
         <field name="res_model">rentsport.user.coupon</field>
         <field name="view_type">form</field>
-        <field name="view_mode">calendar,tree</field>
+        <field name="view_mode">calendar,tree,kanban</field>
         <field name="context">{"search_default_filter_active":1}</field>
     </record>
 

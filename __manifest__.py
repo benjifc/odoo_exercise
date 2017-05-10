@@ -18,11 +18,14 @@
         'demo/coupons.xml',
         'demo/installationType.xml',
         'demo/installations.xml',
+        'demo/rents.xml',
         'views/rentsport_new_user_wizard.xml',
         'views/rentsport_new_user_coupon_wizard.xml',
         'views/rentsport_coupons.xml',
         'views/rentsport_users.xml',
         'views/rentsport_sport_installations.xml',
+        'views/rentsport_sport_rent_wizard.xml',
+        'views/rentsport_sport_rents.xml',
         'views/rentsport_menus.xml'
 
     ],

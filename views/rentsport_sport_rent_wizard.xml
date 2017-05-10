@@ -5,18 +5,25 @@
         <field name="model">rentsport.sport.rent.wizard</field>
         <field name="arch" type="xml">
             <form string="Nuevo Usuario" >
-                <group>
-                    <field name="fecha_inicio" widget="date"/>
+              <sheet>
+                 <group>
+                    <field name="fecha_inicio" widget="date" />
                     <field name="duracion" />
                     <field name="tipo_pista" />
-                    <field name="instalaciones" />
-                    <field name="pistas_disponibles" />
-
-                </group>
+                 </group>
+                  <notebook>
+                      <page string="Instalaciones" >
+                          <field name="pistas_disponibles"    domain="[('tipo_pista','=', tipo_pista)]"/>
+                      </page>
+                      <page string="Cupones">
+                           <field name="cupones_disponibles"/>
+                      </page>
+                  </notebook>
                 <footer>
-                    <button name="reservar" icon="fa-plus" type="object" string="Reservar"/>
+                    <button name="reservar" icon="fa-plus"  type="object" string="Reservar"/>
                     <button special="cancel" icon="fa-times" string="Cancelar"/>
                 </footer>
+                </sheet>
             </form>
         </field>
     </record>

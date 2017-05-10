@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+     <record id="rentsport_sport_rent_search_view" model="ir.ui.view">
+        <field name="name">rentsport.sport.rent.search</field>
+        <field name="model">rentsport.sport.rent</field>
+        <field name="arch" type="xml">
+            <search string="Search">
+                <field name="instalacion"/>
+                <field name="usuario"/>
+            </search>
+        </field>
+    </record>
+
+
+
+    <record id="rentsport_sport_rent_form_view" model="ir.ui.view">
+        <field name="name">rentsport.sport.rent.form</field>
+        <field name="model">rentsport.sport.rent</field>
+        <field name="arch" type="xml">
+            <form string="Reserva">
+                <sheet>
+                    <group>
+                      <field name="instalacion"/>
+                        <field name="usuario"/>
+                        <field name="fecha_inicio_alquiler"/>
+                        <field name="fecha_fin_alquiler"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+   <record id="rentsport_sport_rent_tree_view" model="ir.ui.view">
+        <field name="name">rentsport.sport.rent.tree</field>
+        <field name="model">rentsport.sport.rent</field>
+        <field name="arch" type="xml">
+            <tree   string="Instalaciones"
+                    decoration-danger="fecha_fin_alquiler&lt; current_date">
+
+                 <field name="instalacion"/>
+                <field name="usuario"/>
+                <field name="fecha_inicio_alquiler"/>
+                <field name="fecha_fin_alquiler"/>
+                <field name="minutos"/>
+            </tree>
+
+        </field>
+    </record>
+
+    <record id="rentsport_sport_rent_action" model="ir.actions.act_window">
+        <field name="name">Instalaciones</field>
+        <field name="res_model">rentsport.sport.rent</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form,gantt</field>
+
+    </record>
+
+</odoo>

@@ -32,7 +32,13 @@
                 </button>
                 <button class="oe_stat_button" type="object"
                     name="open_user_new_coupons"
-                    icon="fa-tags" string="Nuevo cupón"/>
+                    icon="fa-ticket" string="Nuevo cupón"/>
+                <button class="oe_stat_button" type="object"
+                    name="open_user_new_rent"
+                    icon="fa-book">
+                    <field string="Total" name="total_user_rents" widget="statinfo"/>
+                    <field string="Reservas" name="total_user_rents_reservations" widget="statinfo"/>
+                </button>
             </div>
             <xpath expr="//notebook" position="inside">
                 <page string="Cupones" autofocus="autofocus">

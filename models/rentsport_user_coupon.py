@@ -24,7 +24,7 @@ class RentSportUserCoupon(models.Model):              # ← DEFINICION DE LA CLA
 
     @api.one
     def _get_total_coupons_without_use(self):
-        self.total_coupons_without_use = len(self.search([('fecha_validez', '&gt;=', (datetime.date.today()).strftime('%%Y-%%m-%%d 00:00:00')),('codigo_usado','=','activo')]))
+        self.total_coupons_without_use = len(self.search([('fecha_validez', '>=', (datetime.date.today()).strftime('%Y-%m-%d 00:00:00')),('codigo_usado','=','activo')]))
 
     @api.one
     def _get_total_coupons_with_use(self):

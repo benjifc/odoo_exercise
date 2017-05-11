@@ -13,6 +13,7 @@
                     Permitirá al usuario final realizar la gestión completa de las instalaciones, 
                     así como las reservas a las mismas y los usuarios que pueden reservar pistas.
             """,
+    'depends':['report'],
     'data' : [
         'demo/users.xml',
         'demo/coupons.xml',
@@ -26,7 +27,9 @@
         'views/rentsport_sport_installations.xml',
         'views/rentsport_sport_rent_wizard.xml',
         'views/rentsport_sport_rents.xml',
-        'views/rentsport_menus.xml'
+        'views/rentsport_menus.xml',
+        'reports/coupon.xml',
+        'reports/coupon_template.xml'
 
     ],
     'demo':[

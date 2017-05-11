@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+        <record id="paperformat_coupon" model="report.paperformat">
+            <field name="name">Cupon</field>
+            <field name="default" eval="True"/>
+            <field name="format">custom</field>
+            <field name="page_height">100</field>
+            <field name="page_width">170</field>
+            <field name="orientation">Portrait</field>
+            <field name="margin_top">13</field>
+            <field name="margin_bottom">20</field>
+            <field name="margin_left">13</field>
+            <field name="margin_right">13</field>
+            <field name="header_line" eval="False"/>
+            <field name="header_spacing">100</field>
+            <field name="dpi">300</field>
+
+        </record>
+         <report
+                id="rent_sport_user_coupon_report"
+                string="Cupon"
+                model="rentsport.user.coupon"
+                report_type="qweb-pdf"
+                name="rent_sport.user_coupon_report"
+                file="rent_sport.report_user_coupon"
+                paperformat="paperformat_coupon"
+
+            />
+   </data>
+</odoo>

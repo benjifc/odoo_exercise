@@ -36,7 +36,7 @@ class ResPartner(models.Model):                     # ← DEFINICION DE LA CLASE
             return {
                 'name': 'Cupones de usuario',
                 'view_type': 'tree',
-                'view_mode': 'calendar',
+                'view_mode': 'calendar,tree,form,kanban',
                 'res_model': 'rentsport.user.coupon',
                 'domain': [('usuario_id','=', obj.id)],
                 'type': 'ir.actions.act_window',

@@ -10,6 +10,7 @@
                     <field name="fecha_inicio" widget="date" />
                     <field name="duracion" />
                     <field name="tipo_pista" />
+                    <field name="pistas_disponibles2" />
                  </group>
                   <notebook>
                       <page string="Instalaciones" >

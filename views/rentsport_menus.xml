@@ -9,7 +9,7 @@
   #########################################################################################################
   <menuitem id="rentsport_menu" name="Administracion Pistas Deportivas"  sequence="40"  parent="main_rentsport_menu"/>
    <menuitem id="rentsport_users_menu" action="rentsport_users_action" name="Usuarios" sequence="20" parent="rentsport_menu"/>
-        <menuitem id="rentsport_new_user_menu"  action="rentsport_new_user_wizard_action" name="Alta usuario" sequence="31" parent="rentsport_users_menu"/>
+        <menuitem id="rentsport_new_user_menu"  action="rentsport_new_user_wizard_action" name="Alta usuario" sequence="31" parent="rentsport_menu"/>
     <menuitem id="rentsport_coupons_menu"  action="rentsport_coupons_action" name="Cupones" sequence="30" parent="rentsport_menu"/>
     <menuitem id="rentsprot_sport_installations_menu"  action="rentsport_sport_installations_action" name="Instalaciones" sequence="40" parent="rentsport_menu"/>
     <menuitem id="rentsport_sport_rent_menu"  action="rentsport_sport_rent_action" name="Alquiler" sequence="60" parent="rentsport_menu"/>

@@ -14,6 +14,7 @@ class RentSportRentWizard(models.Model):                # ← DEFINICION DE LA C
      duracion = fields.Integer(string="Duracion en minutos", default="60")
      tipo_pista = fields.Many2one('rentsport.installation.type', string="Tipo de pista", onchange="_get_ids_instalaciones")
      cupones_disponibles = fields.Many2many(comodel_name='rentsport.user.coupon',onchange="_get_cupones", string="Cupones")
+     pistas_disponibles2 = fields.Many2one(comodel_name='rentsport.sport.installation', string="Instalaciones2")
      pistas_disponibles = fields.Many2many(comodel_name='rentsport.sport.installation',onchange="_get_instalaciones",  string="Instalaciones")
 
 
@@ -63,6 +64,12 @@ class RentSportRentWizard(models.Model):                # ← DEFINICION DE LA C
                     cupon = rent_cupones.search([('id','=',int(cupones_id))],limit=1)
                     cupon.write({'codigo_usado': 'usado'})
 
+     @api.one
+     @api.constrains('duracion')
+     def _check_duration(self):
+         if self.duration <= 0:
+             raise exceptions.ValidationError('La duracion minimo tiene que ser mayor a 1 minuto.')
+
      @api.onchange('cupones_disponibles')
      def _get_cupones(self):
          del self._ids_cup[:]
@@ -102,6 +109,7 @@ class RentSportRentWizard(models.Model):                # ← DEFINICION DE LA C
 
                          if  int(self.duracion) < 1440:
                             self.pistas_disponibles = ids
+                            self.pistas_disponibles2 = ids
                          else:
                              del ids[:]
                              self.pistas_disponibles = []
@@ -113,3 +121,4 @@ class RentSportRentWizard(models.Model):                # ← DEFINICION DE LA C
                          for C in cupones:
                                 cids.append(C.id)
                          self.cupones_disponibles = cids
+

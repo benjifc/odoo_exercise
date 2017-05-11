@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+    <template id="user_coupon_report">
+                    <xpath expr="//div[@class='header']" position="replace">
+                        <div class="header"/>
+                    </xpath>
+        <t t-call="report.html_container">
+        <t t-foreach="docs" t-as="doc">
+                <t t-call="report.external_layout">
+                    <div class="page">
+                        <table class="table table-condensed">
+                        <tr>
+                                <td><img src="/rent_sport/static/description/icon.png" style="max-height: 90px;"/></td>
+                                <td align="right"><img t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s'%('QR',doc.codigo, 100, 100)"/></td>
+                        </tr>
+                        <tr>
+                            <td><span t-field="doc.usuario_id"/></td>
+                            <td align="center"><span t-field="doc.codigo_usado"/></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center"><span t-field="doc.fecha_validez"/></td>
+                        </tr>
+                        </table>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+    </data>
+</odoo>
